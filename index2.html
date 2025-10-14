@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/style2.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <title>Site BMW Treino</title>
+</head>
+<body>
+
+  <!-- navbar -->
+   <img src="img/BMW.svg.png" alt="Logo BMW" style="width: 100px; height: 100px;"/>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Contato</a>
+          </li>
+        </ul>
+        </div>
+
+        <!-- campo de pesquisa -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search" />
+          <button type="button" class="btn btn-danger">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carrossel -->
+ <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="1000">
+      <img src="img/photo-1522778119026-d647f0596c20.avif" class="d-block w-100" alt="Futebol" />
+    
+    </div>
+    <div class="carousel-item" data-bs-interval="1000">
+      <img src="img/photo-1551958219-acbc608c6377.avif" class="d-block w-100" alt="Futebol" />
+    </div>
+    <div class="carousel-item" data-bs-interval="1000">
+      <img src="img/photo-1646978567314-32cfd5a8854e.avif" class="d-block w-100" alt="Tênis de Mesa" />
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- banner empresas -->
+<div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <img id="bannerE" src="img/banner_empresas.webp" alt=""/>
+    </div>
+  </div>
+</div>
+
+<!-- conteúdo principal -->
+ <div class="container mt-3 mb-3">
+  <div class="row">
+    <div class="col">
+      <img src="/img/mg1.avif" alt="">
+    </div>
+    <div class="col">
+      <img src="/img/mg2.avif" alt="">
+    </div>
+  </div>
+</div>
+
+
+<!-- card -->
+ 
+<div class="container my-4">
+  <div class="row justify-content-center g-3">
+
+    <div class="col-md-6 col-lg-5">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/img/oreo.webp" class="img-fluid rounded-start" alt="">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural lead-in to additional content.
+                This content is a little bit longer.
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-5">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/img/1417116105_1SZ.webp" class="img-fluid rounded-start" alt="">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural lead-in to additional content.
+                This content is a little bit longer.
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+  <div class="row mt-3">
+    <div class="col colB">
+      <img src="/img/photo-1555215695-3004980ad54e.avif" alt="">
+    </div>
+    <div class="col colB">
+      <img src="/img/photo-1639418943732-d201ec1203ff.avif" alt="">
+    </div>
+    <div class="col colB">
+      <img src="/img/photo-1660985248084-9f4210c9d93d.avif" alt="">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Footer -->
+
+<footer class="text-center text-md-start mt-4">
+<div class="row">
+  <div class="col">
+    <h5>Informações Adicionais</h5>
+    <ul class="list-unstyled">
+      <li><a href="#" class="link-secondary" id="informacao_adicional">Proteção de Dados</a></li>
+      <li><a href="#" class="link-secondary" id="informacao_adicional">Termos de Uso</a></li>
+      <li><a href="#" class="link-secondary" id="informacao_adicional">Política de Privacidade</a></li>
+      <li><a href="#" class="link-secondary" id="informacao_adicional">Mapa do Site</a></li>
+    </ul>
+  </div>
+
+<div class="col">
+    <h5>Política de Devolução</h5>
+    <ul class="list-unstyled">
+      <li><a href="#" class="link-secondary" id="devolucao">Termos de Devolução</a></li>
+      <li><a href="#" class="link-secondary" id="devolucao">Política de Reembolso</a></li>
+      <li><a href="#" class="link-secondary" id="devolucao">Garantia de Produtos</a></li>
+      <li><a href="#" class="link-secondary" id="devolucao">Contato para Suporte</a></li>
+    </ul>
+  </div>
+
+<div class="col">
+    <h5>Ajuda</h5>
+    <ul class="list-unstyled">
+      <li><a href="#" class="link-secondary" id="ajuda">Como posso rastrear meu pedido?</a></li>
+      <li><a href="#" class="link-secondary" id="ajuda">Quais são as opções de pagamento?</a></li>
+      <li><a href="#" class="link-secondary" id="ajuda">Como faço para cancelar um pedido?</a></li>
+      <li><a href="#" class="link-secondary" id="ajuda">Como entro em contato com o suporte?</a></li>
+    </ul>
+  </div>
+
+
+  <!-- Redes Sociais -->
+      <div class="col redes-sociais">
+        <h5>Redes Sociais</h5>
+        <div class="d-flex justify-content-start gap-3 flex-wrap">
+          <div class="text-center">
+            <a href="#"><img src="/img/facebook.png" alt="Facebook" class="favimg"></a>
+            <p>Facebook</p>
+          </div>
+          <div class="text-center">
+            <a href="#"><img src="/img/youtube.png" alt="YouTube" class="favimg"></a>
+            <p>YouTube</p>
+          </div>
+          <div class="text-center">
+            <a href="#"><img src="/img/instagram.png" alt="Instagram" class="favimg"></a>
+            <p>Instagram</p>
+          </div>
+          <div class="text-center">
+            <a href="#"><img src="/img/linkedin.png" alt="LinkedIn" class="favimg"></a>
+            <p>LinkedIn</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
